@@ -274,7 +274,8 @@ function procPzl() {//ゲーム中の処理を行う関数
 }
 
 //エフェクトの管理
-var RAINBOW = ["#ff0000", "#ff0000", "#00ff00", "#00ff00", "#0000ff", "#0000ff", "#8000e0"];
+//var RAINBOW = ["#ff0000", "#ff0000", "#00ff00", "#00ff00", "#0000ff", "#0000ff", "#8000e0"];
+var RAINBOW = ["#82C4D8", "#ffffff", "#82C4D8", "#ffffff", "#82C4D8", "#ffffff", "#82C4D8"];
 var EFF_MAX = 100;
 var effX = new Array(EFF_MAX);
 var effY = new Array(EFF_MAX);
