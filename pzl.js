@@ -19,7 +19,7 @@ function mainloop() {
 
     case 0://タイトル画面
     drawImgC(7, 480, 370);//タイトルのロゴ
-    if(tmr%40 < 20) fText("画面をタップして始める", 480, 650, 50, "white");
+    if(tmr%40 < 20) fText("画面をタップ!", 480, 650, 50, "white");
     if(key[32]>0 || tapC>0) {
         clrBlock();
         initVar();
@@ -38,7 +38,7 @@ function mainloop() {
     break;
 
     case 2://ゲームオーバー
-    fText("GAME OVER", 480, 420, 100, "violet");
+    fText("TIME UP!", 480, 420, 100, "violet");
     if(tmr > 30*5) idx = 0;
     break;
     }
